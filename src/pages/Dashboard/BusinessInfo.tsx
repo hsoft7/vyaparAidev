@@ -55,7 +55,7 @@ export default function Businessinfo() {
                 fill=""
               />
             </svg>
-            Edit
+            modify
           </button>
         </div>
       </div>

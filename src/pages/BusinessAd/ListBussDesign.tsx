@@ -9,7 +9,7 @@ function ListBussDesign({ RecentDesign }) {
         {RecentDesign?.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col items-center justify-center p-2 gap-2 rounded-2xl hover:shadow-lg transition"
+            className="flex flex-col items-center justify-center p-2 gap-4 rounded-2xl hover-3d transition"
           >
             {/* Large Screen Icon */}
             <img
@@ -22,8 +22,8 @@ function ListBussDesign({ RecentDesign }) {
 
             {/* Small Screen Icon */}
             <img
-              width="100"
-              height="100"
+              width="120"
+              height="120"
               className="block lg:hidden"
               src="https://static.vecteezy.com/system/resources/thumbnails/000/236/134/small/modern-colorful-squares-vector-background.jpg"
               alt="design icon"
